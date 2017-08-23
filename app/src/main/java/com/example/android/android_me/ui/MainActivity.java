@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity implements MasterListFragmen
         setContentView(R.layout.activity_main);
         if(findViewById(R.id.android_me_linear_layout) != null){
             mTwoPane = true;
-            GridView gridView = (GridView) findViewById(R.id.images_grid_view);
-            gridView.setNumColumns(2);
+            //GridView gridView = (GridView) findViewById(R.id.images_grid_view);
+            //gridView.setNumColumns(2);
             //Button nextButton = (Button) findViewById(R.id.next_button);
             //nextButton.setVisibility(View.GONE);
             if(savedInstanceState == null) {
